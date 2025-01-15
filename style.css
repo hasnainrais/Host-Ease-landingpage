@@ -225,6 +225,7 @@ padding: 10px;
     /* border: 1px solid red; */
     margin-top: 30px;
     display: flex;
+    justify-content: space-between;
 }
 
 .cs-sec5-text>h2{
@@ -236,10 +237,12 @@ padding: 10px;
 
 
 .cs-input>input{
-    width: 550px;
+    width: 450px;
     height: 85px;
     border: 2px solid #000000;
+    /* margin-right: 50px; */
     position: absolute;
+    
     
 
 }
@@ -257,12 +260,41 @@ padding: 10px;
 
 .cs-btn-sec5{
     position: relative;
-    left: 350px;
+    left: 300px;
     top: 20px;
 
 }
 
+.cs-footer{
+    margin-top: 80px;
+    /* border: 1px solid red; */
 
+}
+
+.f-sec1>p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 20px;
+    padding-right: 80px;
+}
+
+
+.f-sec2>ul{
+    text-align: right;
+    /* align-items: end; */
+}
+.f-sec2>ul>li{
+    padding: 10px;
+    
+}
+
+.cs-fs-main{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+}
 
 
 @media only screen and (max-width:990px){
@@ -336,6 +368,30 @@ padding: 10px;
     font-weight: 400;
 }
 
+.cs-input>input{
+    width: 350px;
+}
+
+.cs-input>input:focus{
+    outline: none;
+}
+
+.cs-input>input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 20px;
+}
+
+.cs-btn-sec5{
+    position: relative;
+    left: 200px !important;
+    /* left: 350px; */
+    /* top: 20px; */
+
+}
+
+
 }
 
 
@@ -366,4 +422,12 @@ padding: 10px;
   .cs-sec-5{
     gap: 10px;
   }
+  .cs-fs-main{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+
+
 }
